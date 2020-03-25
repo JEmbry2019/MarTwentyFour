@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 namespace MarTwentyFour.Data
 {
     //Creates a new database context named StudentInformationContext(MarTweentyFourContext)
-    public class MarTweentyFourContext : DbContext
+    public class MarTwentyFourContext : DbContext
     {
-        public MarTweentyFourContext(DbContextOptions<MarTweentyFourContext> options) : base(options)
+        public MarTwentyFourContext(DbContextOptions<MarTwentyFourContext> options) : base(options)
         {
         }
 
